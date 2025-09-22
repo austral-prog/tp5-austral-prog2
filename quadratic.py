@@ -21,4 +21,7 @@ def to_string(a, b, c):
 
 
 def derivation(a, b, c):
-    return f"f'(x) = {2*a} * X + {b}"
+    if a == 0:
+        return f"f'(x) = {b}"
+    else:
+        return f"f'(x) = {2*a} * X + {b}"
