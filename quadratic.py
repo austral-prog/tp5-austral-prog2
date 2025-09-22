@@ -23,6 +23,8 @@ def to_string(a, b, c):
         return f"f(x) = {a} * X^2 + {c}"
     if (a == 0) and (b == 0):
         return f"f(x) = {c}"
+    if c == 0:
+        return f"f(x) = {a} * X^2 + {b} * X"
     else:
         return f"f(x) = {a} * X^2 + {b} * X + {c}"
 
