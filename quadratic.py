@@ -21,6 +21,4 @@ def to_string(a, b, c):
 
 
 def derivation(a, b, c):
-    if (c > 0) or (c < 0):
-        c = 0
-    return f"f'(x) = {2*a}*x + {b} + {c}"
+    return f"f'(x) = {2*a}*x + {b}"
