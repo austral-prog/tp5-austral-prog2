@@ -17,7 +17,14 @@ def value_y(a, b, c, x):
 
 
 def to_string(a, b, c):
-    return f"f(x) = {a}*x^2 + {b}*x + {c}"
+    if a == 0:
+        return f"f(x) = {b}*x + {c}"
+    if b == 0:
+        return f"f(x) = {a}*x^2 + {c}"
+    if (a == 0) and (b == 0):
+        return f"f(x) = {c}"
+    else:
+        return f"f(x) = {a}*x^2 + {b}*x + {c}"
 
 
 def derivation(a, b, c):
