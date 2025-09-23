@@ -9,7 +9,7 @@ def roots(a, b, c):
         raiz = -b / (2*a)
         return f"({raiz})"
     else:
-        return "( )"
+        return "( )
 
 
 def value_y(a, b, c, x):
