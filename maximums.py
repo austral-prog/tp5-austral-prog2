@@ -2,7 +2,7 @@ def max_of_two(x, y):
     if x >= y:
         return x
     else:
-        return y
+        return 
 
 def max_of_three(x, y, z):
     if x >= y and x >= z:
